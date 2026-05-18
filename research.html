@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Research Highlights — Dibyajyoti Mohanta</title>
+  <meta name="description" content="Research highlights: optical DNA mapping, biocondensate dynamics, polymers under confinement, adsorption, segregation and sequence patterning." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<div class="layout">
+
+  <aside class="sidebar">
+    <button class="menu-toggle" aria-label="Toggle menu">☰ Menu</button>
+    <a href="index.html" class="brand">Dibyajyoti Mohanta</a>
+    <div class="tagline">Postdoctoral Researcher · Statistical Physics</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="introduction.html">Introduction</a></li>
+        <li><a href="research.html">Research Highlights</a></li>
+        <li><a href="publications.html">Outreach &amp; Publications</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <div class="contact">
+      <span class="label">Email</span>
+      <a href="mailto:dmohanta@buffalo.edu">dmohanta@buffalo.edu</a>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="content">
+
+      <h1>Research Highlights</h1>
+      <p class="page-subtitle">Selected projects across optical DNA mapping, biocondensate dynamics, and polymer physics in confinement.</p>
+
+      <!-- =============================== Optical DNA Mapping =============================== -->
+      <section class="research-section" id="optical-dna-mapping">
+        <h2>Optical DNA Mapping</h2>
+
+        <figure>
+          <img src="https://lh3.googleusercontent.com/sitesv/AA5AbUArkk4nDceyOp7XPKXbluXBDwbVHSo7y1HRzpUP-wO_BTaSmZaeZqe4YG83-hQu-oFs4uylqZCjA-QMVUFanNBKk7WuKOFkGvt_G3GS7aDhSBsGN673QQ169bF47DT9rzytVdwp__ZfHLwgiIr-bFIokAyjkkMRwFcXIaMGoPBWEnVw6mhqkwyzx6yfRzXczSc9AvFRn0MMTnw4Wd2Qe0yJmoHWmQmpWiSj=w1280" alt="Optical DNA mapping schematic"/>
+          <figcaption>V. Müller <em>et al.</em>, Nucleic Acids Research, 2019, Vol. 47, No. 15.</figcaption>
+        </figure>
+
+        <p>
+          Optical DNA mapping visualises fluorescence-labelled, sequence-specific patterns —
+          "barcodes" — along long DNA molecules. These barcodes carry signatures unique to the
+          bacterial species from which the DNA originates.
+        </p>
+
+        <p>
+          Matching experimental barcodes to theoretical sequences in a database is hard because of
+          noise from optics, photophysics, and stochastic chain motion. Our work builds realistic
+          synthetic barcodes that incorporate each of these noise sources at the appropriate stage
+          of the imaging pipeline:
+        </p>
+
+        <h3>(A) Multi-ligand binding mechanism (equilibrium)</h3>
+        <p>
+          Random sampling, via a Markov approach based on transfer matrices, of multiple ligands of
+          different sizes and affinities binding the DNA molecule.
+        </p>
+        <figure>
+          <img src="https://lh3.googleusercontent.com/sitesv/AA5AbUArkk4nDceyOp7XPKXbluXBDwbVHSo7y1HRzpUP-wO_BTaSmZaeZqe4YG83-hQu-oFs4uylqZCjA-QMVUFanNBKk7WuKOFkGvt_G3GS7aDhSBsGN673QQ169bF47DT9rzytVdwp__ZfHLwgiIr-bFIokAyjkkMRwFcXIaMGoPBWEnVw6mhqkwyzx6yfRzXczSc9AvFRn0MMTnw4Wd2Qe0yJmoHWmQmpWiSj=w1280" alt="Random ligand map along the lattice" />
+          <figcaption>Ten stacked random ligand maps along a 1-D lattice; each colour denotes a different ligand type.</figcaption>
+        </figure>
+
+        <h3>(B) Stochastic motion of DNA in the nanochannel (non-equilibrium)</h3>
+        <p>
+          Rouse-bead chain dynamics with parameters fitted from experimental kymographs.
+        </p>
+        <figure>
+          <img src="https://lh3.googleusercontent.com/sitesv/AA5AbUCn8-5Evv8akChd_Oj70bKhNw_yRF4yWCpnKpWjBzCEyJr45VY7AMJZwOMoaXzsynyiwUeplZUi1yQZejSdJevqq-fEGDF1yKL3j5-APLNVyniH7GGYEtYE0SRLvmEwVnhkZPffxOKajx-epfLM9W58Rdf6FFyceOVSwsx2vY-fUgPGx4hSCdWzZe97aaLMgG5nVnbHB0JRjdAadaynOWyndz_NRZ-ievuAvHo=w1280" alt="Experimental vs synthetic T4 DNA kymograph" />
+          <figcaption>Comparison of an experimental and synthetic kymograph of T4 DNA.</figcaption>
+        </figure>
+
+        <h3>(C) Camera noise in the imaging process (photophysics)</h3>
+        <p>
+          Probabilistic modelling of fluorophore emitters on the chain together with appropriate
+          sCMOS / EMCCD calibration — read noise, gain, and background estimation.
+        </p>
+
+        <h3>Articles</h3>
+        <ol class="pub-list">
+          <li>D. Mohanta, A. Dvirnas and T. Ambjörnsson. <em>Random sampling of ligand arrangements on a one-dimensional lattice.</em> <span class="venue">Phys. Rev. E</span> 111, 014412 (2025). <a href="https://doi.org/10.1103/PhysRevE.111.014412" target="_blank" rel="noopener">DOI</a></li>
+          <li>D. Mohanta <em>et al.</em> <em>Photophysical image analysis for sCMOS cameras: noise modelling and estimation of background parameters in fluorescence-microscopy images.</em> <span class="venue">PLOS ONE</span> (2025). <a href="https://doi.org/10.1371/journal.pone.0335310" target="_blank" rel="noopener">DOI</a></li>
+          <li>Synthetic barcodes for accurate identification of bacterial species (in preparation).</li>
+        </ol>
+      </section>
+
+      <!-- =============================== Biocondensates =============================== -->
+      <section class="research-section" id="biocondensates">
+        <h2>Dynamics of biocondensates</h2>
+
+        <figure>
+          <img src="https://lh3.googleusercontent.com/sitesv/AA5AbUDeO2JX2F5hGVUI3hgNkDF4V8ZR2je_egd9-B0S5Dl48bHqW_1003F-HW_RDWEhb6G4a_GWbS_EM4K9dvia1WxuUZ4Mggb2IxHhBgkx1eDsYq2aXPFqfLgOcY0hnqaYfJMrkPXy5P6WgrLy9y9qMTWK44DPHga5KbJUvIrYq4j-ptTxjLGQm14LSJVXZQtxWDyby3VjZH9E4UP8wFYhvsKN18A5t0LM6AgE=w1280" alt="Membraneless organelles from CAG repeats" />
+          <figcaption>A. Jain <em>et al.</em>, Nature, 2017 — formation of membraneless organelles from CAG-repeat trinucleotide sequences.</figcaption>
+        </figure>
+
+        <figure>
+          <img src="https://lh3.googleusercontent.com/sitesv/AA5AbUDcrwwFrYXLmHfVBvHU4TJ23w6jh35Zh--5rcPqk7HmgcFigP9i-0NVaWH0A2xttf_HoMCFA8vMuiR8dASoRhF-Bwf-BhiC3vswiFnIQLXvoF9m_4hx3isceJcnb6AUCRsYYvwAUxsQqYYeVRpaKD3ZIjQy_4kCRzXRu8mBewxYzeFDnacpqq0pDTrPALf9WCo_A-D5FOUS3jp1BdaoJimt1TkviHBYbbL-=w1280" alt="CAG repeat condensate dynamics" />
+        </figure>
+
+        <p>
+          I currently study the material properties of CAG-repeat RNA droplets. While many
+          RNA–protein complexes — particularly with intrinsically disordered proteins — show
+          liquid-like behaviour, our question is whether pure RNA condensates follow the same
+          trend or instead undergo aging. Since CAG-repeat expansions are central to several
+          neurodegenerative diseases (Huntington's among them), the time-dependent material
+          state of these condensates may be tied to onset and progression.
+        </p>
+
+        <ol class="pub-list">
+          <li>D. Mohanta, H. Zhang, D. Thirumalai and H. Nguyen. <em>Molecular origins of heterogeneous aging and spatial organization in RNA condensates.</em> 2026 (under review).</li>
+        </ol>
+
+        <p>I am also studying velocity-flow fields inside condensates, looking for correlations
+        between sequence-dependent flow patterns and bulk material properties.</p>
+
+        <figure>
+          <img src="https://lh3.googleusercontent.com/sitesv/AA5AbUADm0VgCaN6BUrRLmJyFcM0QAOAbb5Y3YX1cbmEQ2aaBWfOUJvSfd8xzQWBSbpVE-S9-_tzx2EQ3wuCC7mldDtn0hhr3faYKhYkHYkO2ZTL7AGTul9gcbQFF-YQWH0LfZ7gRZEOHsOmPYQjyGaN8XPtMDf9CsVlKPLpOMlRqKVphAwMwbyUIrjfbPvghewtvh125wbhBfvUz5zwXh8LUe88I0vVwqJ6ky5NUmA=w1280" alt="Velocity flow within condensate" />
+        </figure>
+        <figure>
+          <img src="https://lh3.googleusercontent.com/sitesv/AA5AbUC1beEJLU6Y75YTCyv_mS1YXgTaEs-AuW6J2272wXCtzrW8G8X-IzO-diX48D-_-HB3MQyPVjmmImJtM7fCcrWk5scroJZKqrozIETsXvjl7V-62TMayJOjrJne4kpC9SNRGDgEjnOqG2mt4V78cvv7ohHOUU4l4_VzbNPN39FimUlrB1d8ziPxVh2zO4UVF4BxeSSWQvNmgO5tHfSLiDW5CsNSmh6GsqDNy4A=w1280" alt="Sequence-dependent flow in condensates" />
+        </figure>
+      </section>
+
+      <!-- =============================== Confinement =============================== -->
+      <section class="research-section" id="polymer-confinement">
+        <h2>Polymer in confinement</h2>
+        <p>
+          Polymers are long, repetitive chains; the biological versions — DNA, RNA, protein — live
+          inside crowded cells where volume exclusion among biomolecules creates an effective
+          confinement that influences stability, dynamics, and function.
+        </p>
+        <p>
+          The interplay of entropy and energy drives a non-linear response in slit-like or
+          well-like confinement. Theory predicts a critical width at which thermodynamic
+          observables of the polymer reach a minimum. We explore non-monotonic responses of
+          dsDNA to temperature and degree of confinement in equilibrium and quasi-equilibrium
+          regimes.
+        </p>
+
+        <h3>Articles</h3>
+        <ol class="pub-list">
+          <li>D. Mohanta, D. Giri and S. Kumar. <em>Statistical mechanics of DNA melting in confined geometry.</em> <span class="venue">J. Stat. Mech.</span> 043501 (2019). <a href="https://iopscience.iop.org/article/10.1088/1742-5468/ab0818/meta" target="_blank" rel="noopener">DOI</a></li>
+          <li>D. Mohanta. <em>Melting of confined DNA: static and dynamic properties.</em> <span class="venue">Soft Matter</span> 18(14), 2790 (2022). <a href="https://pubs.rsc.org/en/content/articlelanding/2022/sm/d2sm00220e/unauth" target="_blank" rel="noopener">DOI</a></li>
+          <li>D. Mohanta, D. Giri and S. Kumar. <em>Effect of solvent gradient on DNA confined in a strip.</em> <span class="venue">Physica A</span> 562, 125379 (2021). <a href="https://www.sciencedirect.com/science/article/pii/S0378437120307287" target="_blank" rel="noopener">DOI</a></li>
+        </ol>
+
+        <figure>
+          <img src="https://lh3.googleusercontent.com/sitesv/AA5AbUCq4ZDMxjiDTYxGRsO_c53-prHEFPIxrgwP_P0nNopX526w81gmyqtS63HnHVGjyup85_73E3C0GAE3qxdU1KNo07EwErS303b0r04RmpTDtpgXDCkzlmiVTaieO7OUw1XGNlGNt6lxLY1aQtrl8aOKAkU_sNlYiWFm-hRpJWAr8sDH-4fM-5UQePs3yfXDDrj6JQtZAT4-h9b0sPbQ7N0AAgHxHkle_WojvcI=w1280" alt="Polymer in confinement" />
+        </figure>
+      </section>
+
+      <!-- =============================== Quasi-equilibrium migration =============================== -->
+      <section class="research-section" id="migration">
+        <h2>Quasi-equilibrium migration studies of polymer</h2>
+        <p>
+          Chemical gradients along migration axes can form globules on the poor-solvent side that
+          act like ratchets, attracting segments from the good-solvent side. When a solvent or
+          dielectric gradient is introduced transverse to a nanopore, the polymer's migration
+          becomes non-monotonic in the gradient strength. In the quasi-static regime — where each
+          migration step is long compared to polymer relaxation — a Fokker–Planck description
+          captures the migration time.
+        </p>
+
+        <ol class="pub-list">
+          <li>D. Mohanta, D. Giri and S. Kumar. <em>Effect of solvent gradient inside the entropic trap on polymer migration.</em> <span class="venue">Phys. Rev. E</span> 105, 024135 (2022). <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.105.024135" target="_blank" rel="noopener">DOI</a></li>
+          <li>D. Mohanta. <em>DNA migration through semi-circular gradient channel.</em> <span class="venue">Physica A</span> 588, 126573 (2022). <a href="https://www.sciencedirect.com/science/article/pii/S0378437121008463" target="_blank" rel="noopener">DOI</a></li>
+        </ol>
+
+        <figure>
+          <img src="https://lh3.googleusercontent.com/sitesv/AA5AbUCHV05TT0N-tvDWLG62PXF4-4PJvmOtPLrJ-plrYL-C-3l9uW69aox6mFapoI6RqzpS_fthlsBG0IiTcEsdHs8a9lPPCJuv2b6hUgKSLpfoRna0Uh5PmQVrkQuNFZ46XFe7XifF6lb1s-cCjX_MrkmCYb7giHW4LQVedVoAwkriy5E2MAO4M0NVzvNq-mP26KLtSIPuCcaOwAX0Wxz-vzJcKHau56vYPZiUKc8=w1280" alt="Polymer migration through gradient channel" />
+        </figure>
+      </section>
+
+      <!-- =============================== Adsorption =============================== -->
+      <section class="research-section" id="adsorption">
+        <h2>Polymer adsorption</h2>
+        <p>
+          We study force-induced melting of dsDNA on a square lattice with varying surface
+          interactions. Depending on force and temperature, the chain exhibits adsorption /
+          desorption, zipping / unzipping, and melting transitions. This minimal model captures
+          the discontinuous nature of unzipping transitions and re-entrance phenomena, with the
+          goal of mapping out adsorption states under varying thermodynamic conditions.
+        </p>
+
+        <ol class="pub-list">
+          <li>D. Mohanta, D. Giri and S. Kumar. <em>Force-induced DNA melting in the presence of an attractive surface.</em> <span class="venue">Soft Matter</span> 19(29), 5477–5486 (2023). <a href="https://pubs.rsc.org/en/content/articlelanding/2023/sm/d3sm00037k/unauth" target="_blank" rel="noopener">DOI</a></li>
+        </ol>
+
+        <figure>
+          <img src="https://lh3.googleusercontent.com/sitesv/AA5AbUBDjCaa3jKeUd7KeINm6qwjJbAJwt8-Qby05Hyif0Up5jTWJleemhnhMgesbE1rdqc2A4aJKR31m-cGidS-qmy635RzuUUbL5bMGgT6NrrHnpqws5vPlIjdg9Cgk_iL15JSahkoeTp-PVIwvHnqDYHx2UmvL8muMVzsMBL9Cgo3dmPR3876EgSHdW4u0dCzZhOpggV6-uuGGrP_ixDrpe9jt5Ii0ye_Ft_Y=w1280" alt="Force-induced DNA melting on surface" />
+        </figure>
+      </section>
+
+      <!-- =============================== Segregation =============================== -->
+      <section class="research-section" id="segregation">
+        <h2>Segregation of polymers</h2>
+        <p>
+          Polymer interactions in strong confinement, in the presence of solvent, span two
+          energetic regimes — inter-polymer and intra-polymer attractions — and lead to multiple
+          phase transitions. Motivated by epigenetic-transition-led collapse, we probe polymer
+          organisation in symmetric and asymmetric confinement. Asymmetric confinement can trap
+          polymers in poor solvents through large free-energy barriers. For heteropolymers
+          (block co-polymers) we are studying segregation dynamics under strong confinement.
+        </p>
+
+        <ol class="pub-list">
+          <li>D. Mohanta. <em>Solvent effect on equilibrium organization of confined polymers.</em> <span class="venue">Soft Matter</span> 19, 4991 (2023). <a href="https://pubs.rsc.org/en/content/articlelanding/2023/sm/d3sm00373f/unauth" target="_blank" rel="noopener">DOI</a></li>
+          <li>D. Mohanta, M. Dwivedi, D. Giri. <em>Segregation of strongly confined block-copolymers.</em> <span class="venue">bioRxiv</span> (2024). <a href="https://doi.org/10.1101/2024.10.31.621393" target="_blank" rel="noopener">DOI</a></li>
+        </ol>
+
+        <figure>
+          <img src="https://lh3.googleusercontent.com/sitesv/AA5AbUCDyjvMoFZ1vgZKqEW9UlBoEFNz6CR062JynX5NzufzJaeXcnBNr7H9lL-TN3dCIYMMMKuyZgCWVXoHWCdkXQdVaaiDCCbZCOMn9f4DAlRF116u6LmFBxVCD4TLICsDO93nKI6SeHw_Bjh6r7Uq_PVP6qoOoLZlCPxJPqd9gSug6szMKYGY2ZMiCaEY702Ym0FP2QmWasWPF92NGi_ZZnvGIFBxfuVXRmUV5cw=w1280" alt="Segregation of confined polymers" />
+        </figure>
+      </section>
+
+      <!-- =============================== Sequence dependence =============================== -->
+      <section class="research-section" id="sequence">
+        <h2>Sequence dependence on polymer association</h2>
+        <p>
+          The molecular grammar of sequence patterning governs how polymers organise under
+          confinement. Quantifying complexity via Shannon entropy, we show that the spatial
+          arrangement of interaction motifs — not merely their composition — determines whether
+          polymers self-fold into isolated globules or intermix to form networked, condensate-like
+          states. The framework bridges polymer physics and biological phase separation: geometric
+          confinement and sequence heterogeneity together control transitions between mixed and
+          segregated ensembles.
+        </p>
+
+        <ol class="pub-list">
+          <li>D. Mohanta, M. Dwivedi, H. Maity, and D. Giri. <em>Sequence complexity dictates polymer mixing.</em> <span class="venue">bioRxiv</span> (2025). <a href="https://doi.org/10.64898/2025.12.23.696237" target="_blank" rel="noopener">DOI</a></li>
+        </ol>
+      </section>
+
+      <h2>Other research interests</h2>
+      <ol>
+        <li><strong>Magnetic polymer studies.</strong> Chromosome folding through epigenetic shifts; beads as nucleosomes, spins as predominant epigenetic marks, producing "epigenetic domains" that mimic chromatin organisation.</li>
+        <li><strong>Loop extrusion.</strong> Cohesin organises chromatin into loops and topologically associating domains, halting at CTCF-bound anchor sequences.</li>
+        <li><strong>Melting studies of CpG islands.</strong> Roughly 28,000 CpG-rich regions of 200–3,000 bp in the human genome can be methylated; high-resolution melting analysis distinguishes methylated samples. We are building a theoretical foundation for melting of different CpG islands using a Poland–Scheraga framework.</li>
+        <li><strong>Reinforcement learning.</strong> Polymer collapse studied through an RL approach.</li>
+        <li><strong>Non-reciprocal Ising interactions.</strong> How non-reciprocal couplings (J<sub>ij</sub> ≠ J<sub>ji</sub>) alter polymer association and segregation.</li>
+      </ol>
+
+      <footer class="footer">
+        © <span id="year"></span> Dibyajyoti Mohanta
+      </footer>
+    </div>
+  </main>
+
+</div>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="assets/script.js"></script>
+</body>
+</html>
